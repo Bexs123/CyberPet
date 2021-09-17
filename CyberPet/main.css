@@ -1,0 +1,32 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image:url(images/background.png);
+}
+#animalButtons{
+    display: block;
+}
+#interactionButtons{
+    display: none;
+}
+.button{
+    background-color: blanchedalmond;
+}
+.button:hover{
+    color: red;
+    cursor: pointer;
+}
+#dogInteractions{
+    display: none;
+}
+#catInteractions{
+    display: none;
+}
+#rabbitInteractions{
+    display: none;
+}
+#stats{
+    display: none;
+}

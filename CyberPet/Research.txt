@@ -1,0 +1,34 @@
+I did some research on window setInterval() method and Window setTimeOut() method, has apart of the cyber pet project, because we needed
+to know which method we could included in the project and by doing the research we found why we could only use that method within our project.
+
+Window setInterval() method
+
+The setInterval() method call a function or evaluates an expression at specified setIntervals (in milliseconds).
+
+The setInterval() method will continue calling the function until clearInterval() is called or windows is closed.
+
+The ID value returned by setInterval() is used as the parameter for the clearInterval() method.
+
+TIP 1000ms = 1second.
+
+TIP To execute a function only once, after a specified number of milliseconds, use the setTimeOut() method.
+
+
+
+clearInterval()
+
+The clearInterval() method clears a timer set with the setInterval() method.
+
+Note: To be able to use the clearInterval() method you must use a variable when creating the interval method.
+
+
+
+Window setTimeOut() method
+
+setTimeOut(function() {alert ("Hello); }, 3000);
+
+The setTimeOut() method calls a function or evaluates an expression after a specified numberof milliseconds.
+
+Tip: The function is only executed once. If you need to repeat execution, use the setInterval() method.
+
+Tip: Use the clearTimeOut() method to prevent the function from running.
